@@ -1,0 +1,12 @@
+body {
+    background-color: rgb(154, 130, 182);
+}
+
+.center {
+    text-align: center;
+}
+
+.inputy-container {
+    border: 1px solid black;
+    background-color: rgb(118, 85, 155);
+}
