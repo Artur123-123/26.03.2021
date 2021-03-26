@@ -9,11 +9,11 @@
 </head>
 <body>
     <div class="container center inputy-container">
-        <input type="text" onchange="onchange1(value)" id="imie" placeholder="Imię">
-        <input type="text" onchange="onchange2(value)" id="nazwisko" placeholder="Nazwisko">
-        <input type="text" onchange="onchange3(value)" id="email" placeholder="E-mail">
-        <input type="text" onchange="onchange4(value)" id="telefon" placeholder="Telefon">
-        <input type="text" onchange="onchange5(value)" id="mess" placeholder="Wiadomość do sprzedającego">
+        <input type="text" onchange="walidacja()" id="imie" placeholder="Imię">
+        <input type="text" onchange="walidacjaNaz()" id="nazwisko" placeholder="Nazwisko">
+        <input type="text" onchange="walidacjaMail()" id="email" placeholder="E-mail">
+        <input type="text" onchange="fon(value)" id="telefon" placeholder="Telefon">
+        <input type="text" onchange="walidacjaWiad()" id="mess" placeholder="Wiadomość do sprzedającego">
         <button  onclick="formularz(value), formularz2(value), formularz3(value), formularz4(value), formularz5(value)">Wyślij</button>
     </div>
     <script src="main.js"></script>
